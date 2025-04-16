@@ -17,7 +17,7 @@ jobs:
       - name: Run Feed-Generator
         run: python feed.py
       - name: Push Repo
-        run:
+        run: |
           git config user.name MrWelch99
           git config user.email joaoramos99.xr@gmail.com
           git add .
